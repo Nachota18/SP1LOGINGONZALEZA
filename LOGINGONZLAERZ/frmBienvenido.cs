@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace LOGINGONZLAERZ
 {
-    public partial class Form1 : Form
+    public partial class frmBienvenido : Form
     {
-        public Form1()
+        public frmBienvenido()
         {
             InitializeComponent();
+        }
+
+        private void frmBienvenido_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
